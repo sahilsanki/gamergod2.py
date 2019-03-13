@@ -1,1 +1,1 @@
-worker: python GamerGod.py
+worker: python mybot.py
