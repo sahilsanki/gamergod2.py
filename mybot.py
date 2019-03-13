@@ -1196,4 +1196,4 @@ async def joinvoice(ctx):
     channel = author.voice_channel
     await client.join_voice_channel(channel)
 
-client.run(Token)
+client.run(os.getenv('Token'))
